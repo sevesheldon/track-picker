@@ -19,21 +19,143 @@
         </div>
       </div>
     </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12" id="answer-img">
+
+        </div>
+      </div>
+    </div>
     <!-- Left half of the screen -->
-    <div class="container">
+    <div class="container" id="questionaire">
       <div class="row">
         <div class="col-sm-6 col-xs-12 left-col">
+          <h1>Welcome to the Epicodus Track Picker</h1>
+          <h4>Fill out the form below to see which track you should take after completing <em>Intro to programming</em>:</h4>
 
+          <!-- Beginning of form -->
+
+          <form class="form-group" id="track-picker">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" class="form-control" placeholder="First Name">
+
+            <!-- Question 1 -->
+            <div class="col-xs-6 q-area">
+              <label for="visited" class="question">1.) Have you used our site before?</label>
+              <br>
+              <label>
+                <input type="radio" name="visited" value="yes"> Yes <br>
+              </label>
+              <label>
+                <input type="radio" name="visited" value="no"> No <br>
+              </label>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="col-xs-6 q-area">
+              <label for="experience" class="question">2.) How many years of experience do you have?</label>
+                <input id="experience" type="number">
+            </div>
+
+            <!-- Question 3 -->
+            <div class="col-xs-6 q-area">
+              <label for="workplace" class="question">3.) What is your ideal workplace?</label>
+              <br>
+              <label>
+                <input type="radio" name="workplace" value="1"> Startup/Smaller company <br>
+              </label>
+              <label>
+                <input type="radio" name="workplace" value="10"> Business software/Larger company <br>
+              </label>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="col-xs-6 q-area">
+              <label for="cms" class="question">4.) What CMS do you prefer to use?</label>
+              <br>
+              <label>
+                <input type="radio" name="cms" value="10"> WordPress <br>
+              </label>
+              <label>
+                <input type="radio" name="cms" value="10"> Drupal <br>
+              </label>
+              <label>
+                <input type="radio" name="cms" value="10"> Joomla <br>
+              </label>
+              <label>
+                <input type="radio" name="cms" value="10"> Other <br>
+              </label>
+              <label>
+                <input type="radio" name="cms" value="1"> I'm not interested in using a CMS <br>
+              </label>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="col-xs-6 q-area">
+              <label for="design" class="question">5.) How important is design/front-end work to you?</label>
+              <br>
+              <label>
+                <input type="radio" name="design" value="10"> Not very <br>
+              </label>
+              <label>
+                <input type="radio" name="design" value="10"> Somewhat <br>
+              </label>
+              <label>
+                <input type="radio" name="design" value="1"> Very! <br>
+              </label>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="col-xs-6 q-area">
+              <label for="platform" class="question">6.) What is your preferred platform?</label>
+              <br>
+              <label>
+                <input type="radio" name="platform" value="1"> Mac <br>
+              </label>
+              <label>
+                <input type="radio" name="platform" value="10"> Microsoft <br>
+              </label>
+              <label>
+                <input type="radio" name="platform" value="5"> Linux <br>
+              </label>
+              <label>
+                <input type="radio" name="platform" value="1"> Other <br>
+              </label>
+            </div>
+
+            <!-- Submit button -->
+            <br><br>
+            <div class="col-xs-12 q-area" id="">
+              <button type="submit" class="btn btn-danger form-control">Let's find out!</button>
+            </div>
+          </form>
         </div>
 
 
     <!-- Right half of the screen -->
 
-        <div class="col-sm-6 col-xs-12 right-col">
-
+        <div class="col-sm-6 col-xs-12 text-center right-col">
+          <img src="img/logo.png">
+          <h1>What track should you take?</h1>
         </div>
       </div>
     </div>
+
+    <!-- FOOTER -->
+
+    <footer class="container-fluid">
+      <div class="row footer-row">
+        <div class="col-sm-4 text-center">
+          <h4><a href="#">sevesheldon@gmail.com</a></h4>
+        </div>
+        <div class="col-sm-4 text-center">
+          <h4><a href="#">Seve Sheldon 2017</a></h4>
+        </div>
+        <div class="col-sm-4 text-center">
+          <h4><a href="#">Portland, OR</a></h4>
+        </div>
+      </div>
 
 
   <body>

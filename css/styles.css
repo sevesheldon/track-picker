@@ -1,0 +1,68 @@
+
+#answer {
+  display: none;
+  background-color: #26c9b4;
+  min-height: 100px;
+}
+
+#answer-img {
+  display: none;
+  background-color: #26c9b4;
+  min-height: 550px;
+}
+
+
+
+#questionaire {
+  background-color: #e6e6e6;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 25px;
+}
+
+.left-col {
+  border-right: 2px solid #26c9b4;
+}
+
+.question {
+  border-bottom: 1px solid black;
+}
+
+.q-area {
+  margin: 25px auto;
+}
+
+
+.right-col img {
+  margin-top: 100px;
+}
+
+.design {
+  background-image: url("../img/css.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ruby {
+  background-image: url("../img/ruby.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.php {
+  background-image: url("../img/php.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.c-sharp {
+  background-image: url("../img/c.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer {
+  border-top: 2px solid #26c9b4;
+  margin-top: 20px;
+  padding: 20px;
+}
